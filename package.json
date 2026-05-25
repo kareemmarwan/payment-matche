@@ -4,9 +4,11 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
-    "build": "vite build",
-    "start": "node dist/server/index.js"
+  "dev": "vite dev",
+  "build": "vite build",
+  "start": "vite preview",
+  "lint": "eslint .",
+  "format": "prettier --write ."
   },
   "dependencies": {
     "@fontsource-variable/cairo": "^5.2.7",
